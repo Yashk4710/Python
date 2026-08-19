@@ -62,7 +62,6 @@ print(list)'''
 
 
 #TUPPLES IN PYTHON
-
 '''tup = (4, 5, 7, 3, 6)
 tap = ()
 taap = (1, )#this way to store one tupple  value
