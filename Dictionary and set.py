@@ -64,4 +64,36 @@ Student.update({"city" : "nashik"}) #insert the specified items to the Dictionar
 print(Student)
 '''
 
-#Set in python 
+#Set in python
+
+'''collection = {1, 2, 5, "Yo", "Yeah", 6, 6, 6} #Set are ignore repeated values
+print(collection)
+print(type(collection))
+print(len(collection)) #total number of items
+
+collection1 = {} #empty dictionary 
+collection2 = set() #empty set ; syntax
+print(type(collection1))
+print(type(collection2))
+'''
+#set method
+'''collection = set() #empty set
+collection.add(2) #adds an element
+collection.add(5)
+collection.add("spidey")
+#collection.remove(5) #remove the element
+#collection.clear() #empties the set 
+print(collection)
+print(len(collection))'''
+
+'''collection = {"yash", "spidey", "Yo", "hello"}
+print(collection.pop())'''
+
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+print(set1.union(set2)) # combines both set values & return new 
+print(set1)
+print(set2)
+set3 = {1, 2, 3}
+set4 = {3, 4, 5}
+print(set3.intersection(set4)) #combines common value & returns new
